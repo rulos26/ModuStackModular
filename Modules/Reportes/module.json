@@ -1,0 +1,11 @@
+{
+    "name": "Reportes",
+    "alias": "reportes",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Reportes\\app\\Providers\\ReportesServiceProvider"
+    ],
+    "files": []
+}
