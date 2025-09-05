@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Ruta principal - redirigir al dashboard de reportes
+// Ruta principal
 Route::get('/', function () {
-    return redirect()->route('reportes.index');
+    return 'Laravel funcionando correctamente!';
 });
 
 // Rutas de módulos (ya configuradas en cada módulo)
