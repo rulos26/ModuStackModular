@@ -4,5 +4,5 @@
     "Ventas": false,
     "Reportes": false,
     "Mantenimiento": false,
-    "IA": true
+    "IA": false
 }

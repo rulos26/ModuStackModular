@@ -109,7 +109,7 @@ class IAServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(array_merge($this->getPublishableViewPaths(), [$sourcePath]), $this->nameLower);
 
-        $componentNamespace = $this->module_namespace($this->name, $this->app_path(config('modules.paths.generator.component-class.path')));
+        $componentNamespace = 'Modules\\IA\\app\\Livewire';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
     }
 
