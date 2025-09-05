@@ -34,8 +34,8 @@ class UsuariosServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\EventServiceProvider::class);
-        $this->app->register(\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\\Modules\Usuarios\app\Providers\RouteServiceProvider::class);
+        $this->app->register(\Modules\Usuarios\app\Providers\EventServiceProvider::class);
+        $this->app->register(\Modules\Usuarios\app\Providers\RouteServiceProvider::class);
     }
 
     /**

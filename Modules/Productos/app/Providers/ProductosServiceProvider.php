@@ -34,8 +34,8 @@ class ProductosServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\EventServiceProvider::class);
-        $this->app->register(\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\\Modules\Productos\app\Providers\RouteServiceProvider::class);
+        $this->app->register(\Modules\Productos\app\Providers\EventServiceProvider::class);
+        $this->app->register(\Modules\Productos\app\Providers\RouteServiceProvider::class);
     }
 
     /**

@@ -1,8 +1,8 @@
 {
     "Usuarios": false,
-    "Productos": true,
-    "Ventas": true,
-    "Reportes": true,
-    "Mantenimiento": true,
+    "Productos": false,
+    "Ventas": false,
+    "Reportes": false,
+    "Mantenimiento": false,
     "IA": true
 }

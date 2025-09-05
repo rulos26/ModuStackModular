@@ -34,8 +34,8 @@ class ReportesServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(\Modules\Reportes\app\Providers\\Modules\Reportes\app\Providers\\Modules\Reportes\app\Providers\EventServiceProvider::class);
-        $this->app->register(\Modules\Reportes\app\Providers\\Modules\Reportes\app\Providers\\Modules\Reportes\app\Providers\RouteServiceProvider::class);
+        $this->app->register(\Modules\Reportes\app\Providers\EventServiceProvider::class);
+        $this->app->register(\Modules\Reportes\app\Providers\RouteServiceProvider::class);
     }
 
     /**

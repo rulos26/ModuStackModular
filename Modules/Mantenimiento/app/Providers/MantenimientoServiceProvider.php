@@ -34,8 +34,8 @@ class MantenimientoServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(\Modules\Mantenimiento\app\Providers\\Modules\Mantenimiento\app\Providers\EventServiceProvider::class);
-        $this->app->register(\Modules\Mantenimiento\app\Providers\\Modules\Mantenimiento\app\Providers\RouteServiceProvider::class);
+        $this->app->register(\Modules\Mantenimiento\app\Providers\EventServiceProvider::class);
+        $this->app->register(\Modules\Mantenimiento\app\Providers\RouteServiceProvider::class);
     }
 
     /**

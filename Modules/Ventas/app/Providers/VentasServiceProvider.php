@@ -34,8 +34,8 @@ class VentasServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->register(\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\EventServiceProvider::class);
-        $this->app->register(\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\\Modules\Ventas\app\Providers\RouteServiceProvider::class);
+        $this->app->register(\Modules\Ventas\app\Providers\EventServiceProvider::class);
+        $this->app->register(\Modules\Ventas\app\Providers\RouteServiceProvider::class);
     }
 
     /**
